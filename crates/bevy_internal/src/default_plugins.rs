@@ -9,11 +9,7 @@ plugin_group! {
         bevy_core:::TypeRegistrationPlugin,
         bevy_core:::FrameCountPlugin,
         bevy_time:::TimePlugin,
-        bevy_transform:::TransformPlugin,
-        bevy_hierarchy:::HierarchyPlugin,
         bevy_diagnostic:::DiagnosticsPlugin,
-        bevy_input:::InputPlugin,
-        bevy_window:::WindowPlugin,
         bevy_a11y:::AccessibilityPlugin,
         #[custom(cfg(not(target_arch = "wasm32")))]
         bevy_app:::TerminalCtrlCHandlerPlugin,
