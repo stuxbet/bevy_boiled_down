@@ -58,6 +58,7 @@ default = [
   "bevy_state",
   "multi_threaded",
   "sysinfo_plugin",
+  "bevy_dev_tools"
 ]
 
 # Force dynamic linking, which improves iterative compile times
